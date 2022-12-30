@@ -3,4 +3,30 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -0.1rem;
+    background-color: #BB2649;
   }
+
+.center {
+    text-align: center;
+}
+
+button {
+    background-color: #000000;
+    color: #e0e0e0;
+    border: 0;
+    border-radius: .99rem;
+    font-size: 1rem;
+    font-variant-caps: all-petite-caps;
+    padding: .4rem 2rem;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+ 
